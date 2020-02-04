@@ -42,7 +42,12 @@ git push -u origin master
 ```
 git push
 ```
+* 第二次以后的push
+
+**文件夹?**
+直接添加就行,但是文件夹不能是空的
 ******
+
 ## 版本回退
 ```
 git reset -hard HEAD^
