@@ -40,4 +40,13 @@ git clone [url]
 ```
 The authenticity of host 'github.com (192.30.255.112)' can't be established.
 ```
+* 链接github的repository时
 * 缺少一个配置文件 ,输入yes 回车自动生成即可
+* 缺的是.ssh下的kown_hosts
+```
+! [rejected] master -> master (fetch first)error:....
+```
+* push时
+* 手动在github的web端做了编辑
+* git pull 同步
+* 然后git push再推
