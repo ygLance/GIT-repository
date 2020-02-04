@@ -5,7 +5,7 @@
 ```
 git init
 ```
-* 在目录中创建新仓库
+* 把此目录变成git仓库
 * 此时在目录下创建一个隐藏的.git子目录
 *******
 ## 基本配置
@@ -14,19 +14,50 @@ git config -global core.editer vim
 ```
 * 默认编辑器
 ******
-## 基本操作
+## 基本文件操作
 ```
 git add
 ```
 * 将该文件添加到缓存
 * 用.通配所有文件
 ```
+git commit -m " ..."
+```
+* 提交修改
+* 写备注
+```
 git status -s
 ```
 * 查看简略信息
 * A:已添加到缓存
 * AM:添加到缓存后有变动 需要再次 add
+
+```
+git remote add origin [url]
+git push -u origin master
+```
+* 仓库关联
+* 第一次连接 提交
 *****
+```
+git push
+```
+******
+## 版本回退
+```
+git reset -hard HEAD^
+git reset -hard HEAD^^
+git reset -hard HEAD~100
+```
+* 回退一个
+* 两个
+* 多个
+******
+* 第二次以后的提交
+```
+git log
+```
+* 查看log
 ## clone一个仓库
 ```
 git clone [url]
