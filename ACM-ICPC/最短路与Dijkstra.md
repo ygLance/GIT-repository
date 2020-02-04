@@ -1,9 +1,14 @@
 # 最短路与Dijkstra算法
 (单源最短路,无负权边)
+
 [博主nb](https://www.cnblogs.com/godfray/p/4077146.html)
+
 例题[农场问题]()
+
 (快啊,至少比floyd快)
+
 **找min的时候不能一边找一边写true**(还不是真的min)
+
 ### 要素
 **1.** dis[maxn] 最短路
 **2.** vis[maxn] 是否已经确定(flase/true)
