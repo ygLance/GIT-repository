@@ -1,12 +1,22 @@
 # git使用笔记
 *****
- ## 本地创建仓库
+ ## 创建仓库
 
 ```
 git init
 ```
 * 把此目录变成git仓库
 * 此时在目录下创建一个隐藏的.git子目录
+```
+ssh-keygen -t rsa -C "..@....com"
+```
+* 只用配置一次
+* 生成配置文件
+* 利用.pub(公钥)和github建立sshkey
+```
+git remote add [shortname] git@github.com:mozhilei/test1.git
+```
+* 建立连接
 *******
 ## 基本配置
 ```
