@@ -31,8 +31,13 @@ git status -s
 ```
 git clone [url]
 如:git clone git@github.com:name/repository.git
-
 ```
 * clone完会生成simplegit子目录
 * git默认使用url指向项目的名字作为本地仓库名
 * 可以在clone命令后加想要的名字
+********
+## 报错
+```
+The authenticity of host 'github.com (192.30.255.112)' can't be established.
+```
+* 缺少一个配置文件 ,输入yes 回车自动生成即可
