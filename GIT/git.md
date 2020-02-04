@@ -41,7 +41,7 @@ git status -s
 * 查看简略信息
 * A:已添加到缓存
 * AM:添加到缓存后有变动 需要再次 add
-
+* D :删除
 ```
 git remote add origin [url]
 git push -u origin master
